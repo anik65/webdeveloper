@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    transition:ease-in-out;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ 
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+} 
+ #load {
+     position: fixed;
+     width: 100%;
+     height: 100vh;
+     background:#fff url( ../img/PotableEmbarrassedFrenchbulldog-small.gif) no-repeat center  ;
+     z-index:99999;
+ }
+  
+/*====#nav-slider====*/
+header{
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+} 
+#nav-slider{
+      width: 100%;
+    height: 100vh;
+   background:linear-gradient(rgba(0,168,255,.3),rgba(0,168,255,.3),rgba(0,168,255,.3)),url(../img/top-view-photo-of-computer-laptop-on-white-table-3773406.jpg); 
+    position: relative;
+    background-repeat: no-repeat;
+  background-size: 100% 100%; 
+    clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0 0); 
+  background-attachment: fixed;
+    
+    
+}
+ nav{
+     width: 100%; 
+
+    background:linear-gradient(rgba(0,168,255,.2),rgba(0,168,255,.2),rgba(0,168,255,.2));
+ }
+ button.nav-butt:focus,
+button.nav-butt {
+    outline: 0!important;
+    cursor: pointer;
+} 
+ .nav-butt{
+    border:none;
+    background: none;
+     
+    
+ }
+ .nav-butt i{
+     font-size: 20px;
+ 
+     color: #fff;
+ }
+.slider{
+   width: 100%; 
+    position: absolute;
+    margin: 10% auto 0 auto;
+   transition: 1s;
+}
+ .main-menu{
+     display: none; 
+     width: 100%; 
+     transition:all  5s ease-in-out!important;
+     background:linear-gradient(rgba(0,168,255,.8),rgba(0,168,255,.8),rgba(0,168,255,.8));
+     margin-top: 5%;
+ }
+  .menu-show{
+     display: block;
+    padding-bottom: 1%;
+     
+ }  
+ ul.menu li {
+     margin-top: 2%;
+
+ }
+ ul.menu li a{
+     font-size: 20px;
+     color: #fff;
+
+}
+ 
+.slider-heading h1,.slider-heading h4{
+    color: #fff; 
+}
+ 
+.carousel-inner{
+    width: 40%!important;
+    margin: 0 auto 0 auto;
+}
+.bxslider li p{
+    color: #fff;
+    font-size: 40px!important;
+  text-transform: uppercase; 
+}
+.bx-wrapper{
+    margin-top: 2%;
+    background: none!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+.view{
+    border: 1px solid #fff;
+    background: none;  
+    margin-left: 1%;
+    padding: 10px 12px;
+    border-radius: 30px; 
+}
+ 
+ .view:hover {
+    background:#fff ;
+    
+ }
+.view:hover.view a{
+    color:rgba(0,168,255,1);
+}
+.view a{
+    color: #fff;  
+}
+.animation{
+    animation: slideInUp 2s;
+}
+/*====#nav-slider====*/
+/*====#about====*/ 
+
+
+ #about{
+    margin-top: 5%;
+    overflow: hidden;
+}
+.extra{
+     padding: 30px 10px;  
+}
+.service-box-one i {
+    font-size: 40px;
+    color:rgba(0,168,255,1);
+    
+}
+.service-box-one h3{
+    font-size: 25px;
+}
+
+.extra:hover{
+    box-shadow:  0  0 20px 0 rgba(0,0,0,.3);
+    transform: translateY(-20px)!important;
+   transition: ease-in-out .5s!important;
+}  
+ 
+ 
+ /*====#about====*/
+ /*====#skill====*/
+ #skill{
+      margin-top: 5%;
+      overflow: hidden;
+ }
+ .skill-heading {
+     margin-bottom: 5%;
+ }
+ .skill-heading h2{
+     font-size: 28px;
+ }
+ .pro-margin{
+     margin-top: 5%; 
+ }
+ .icon-one i{
+     margin-left: 60%;  
+    font-size: 30px;
+    color:rgba(0,168,255,1);
+ }
+ .icon-two i{
+    margin-left: 67%; 
+   font-size: 30px;
+   color:rgba(0,168,255,1);
+}
+ .pro-text h3{
+     font-size: 18px;
+ }
+ .text h3{
+     font-size: 18px;
+ }
+ .more-info h2{
+     margin-top: 5%;
+     font-size: 25px;
+ }
+  .countup h1{
+    color:rgba(0,168,255,1);
+  }
+  /*====#skill====*/
+  #price{
+    margin-top: 5%; 
+    height: 100vh; 
+      
+    position: relative;
+    background: linear-gradient(160deg,#16c9f6 55%,#fff 0%);
+  }
+  .our-price{ 
+      margin-bottom: 5%;
+  }
+  .our-price h2{
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 25px;
+      padding-top: 2%;
+  }
+  .card-body p{
+      line-height: 30px;
+  }
+   
+  .card:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+    transform: translateY(-20px)!important;
+    transition: ease-in-out .5s!important;
+  }
+   .carousel-inner{
+        width: 100%!important;
+   }
+   .carousel-item {
+       text-align: center!important ;
+   }
+   /*=========price========*/
+   #our-client{
+       overflow: hidden;   
+   }
+.box{
+    text-align: center;
+    
+    box-shadow: 0 5px 10px  0 rgba(0,0,0,.3);
+    border: 1px solid rgba(0,0,0,.2);
+}
+#our-client .card-header,#our-client .card-footer {
+    background-color: #16c9f6;
+}
+#carouselExampleIndicators{
+    height:60vh;
+} .carousel-indicators  li {
+    background-color: #16c9f6;
+    opacity: .5!important;
+  }
+  .carousel-indicators li.active{
+    background-color: #16c9f6;
+    opacity: 1!important;  
+  }
+/*==============contact=============*/
+#contact{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    padding-bottom: 2%;
+    background: linear-gradient(340deg,#16c9f6 55%,#fff 0%);
+    
+}
+.button button{
+    border-radius: 100px;
+}
+.button button a{
+    color: #fff;
+}
+.button button:hover {
+  background-color: #fff;
+}
+.button button:hover a   {
+     color:#16c9f6!important ;
+}
+  
+/*==============contact=============*/
+#newsletter{
+    margin-bottom: 4%;
+     
+}
+ .news{
+     border-radius: 100px 0 0 100px!important;
+ }
+ .input-group-text{
+     color: #fff;
+      
+     background-color: rgba(0,168,255,1);
+     border-radius:0 100px 100px 0 !important;
+ }
+ #footer{
+    background-color: #00abff!important;
+    padding-bottom: 1%;
+     
+ }
+ .mt{
+     margin-top: 5%;
+ }
+ .about{
+     color: #fff;
+ }
+ .about li a{
+     font-size: 18px;
+     text-transform: capitalize;
+     color: #fff;
+ }
+ .about h5{
+     text-shadow: 0 2px 5px rgba(0,0,0,.4);
+ }
+ .copy-right p{
+     font-size: 16px;
+     color: #fff;
+ }
+  
+   
+ .mybtn{
+     margin-left: 120%;  
+     font-size: 15px;
+     color: #fff;  
+     z-index: 1;
+     background-color:#00abff  ;
+     font-size: 20px;
+     padding: 2%;
+     border-radius: 5px;
+      
+      
+ }
+  
+   

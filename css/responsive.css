@@ -1,0 +1,168 @@
+@media (max-width:1199px){  
+    #our-client{
+        margin-top: 2%;
+    }
+    .service-box-one p{
+        font-size: 14px;
+    }
+    .mybtn{
+        margin-left: 105%;  
+     } 
+} 
+
+@media (max-width:991px){   
+   
+  .service-box-one p{
+      font-size: 18px;
+      margin: 0 10% 0 10%;
+  }
+  
+.carousel-indicators{
+    display: none;
+}
+.second{
+    margin-top: 4%;
+} 
+.mybtn{
+    margin-left: 110%; 
+ }
+} 
+@media (max-width:930px){ 
+    .mybtn{
+        margin-left: 105%;  
+     } 
+}
+@media (max-width:850px){ 
+    .mybtn{
+        margin-left: 100%;  
+     } 
+}
+@media (max-width:795px){
+    
+    .mybtn{
+        margin-left: 98%;  
+     } 
+} 
+@media (max-width:767px){ 
+    .main-menu{
+        margin-top: 15%;
+    }
+    
+    .slider-heading h1{ 
+        font-size: 25px;
+        margin-top: 10%;
+    } 
+    .bxslider li p { 
+        font-size: 20px!important; 
+    }
+    .skill-text{
+        margin-top: 7%;
+        margin-left: -14%;
+    }
+     .countup h1{
+         font-size: 25px!important;
+     }
+     .countup h3{
+        font-size: 15px!important;
+    }
+  #our-client{
+      margin-top: 60%;
+  }
+  #price{
+       margin-bottom: 110%;
+  }
+  .second{
+      margin-top: 8%;
+  }
+  .box .card p {
+      font-size: 18px;
+  }
+.carousel-indicators{
+    display: none;
+}
+  .mybtn{
+    margin-left: 90%;  
+ }
+}  
+@media (max-width:765px){
+    #our-client{
+        margin-top: -60%;
+    }
+     
+    .mybtn{
+        margin-left: 110%;  
+     } 
+     #carouselExampleIndicators{
+        height: 40vh;
+    }  
+} 
+@media (max-width:715px){ 
+    .mybtn{
+        margin-left: 100%;  
+     }  
+} 
+@media (max-width:595px){ 
+    .mybtn{
+        margin-left: 95%;  
+     } 
+} 
+@media (max-width:575px){
+    #our-client{
+        margin-top: -50%;
+    }
+}
+@media (max-width:525px){
+    #our-client{
+        margin-top: -40%;
+    }
+    #carouselExampleIndicators{
+        height: 45vh;
+    }  
+} 
+@media (max-width:411px){
+    .slider-heading h1{  
+        margin-top: 30%;
+    }
+    #price{
+        margin-bottom: 80%;
+   } 
+   #carouselExampleIndicators{
+    height: 35vh;
+}  
+}
+@media (max-width:400px){ 
+    #price{
+        margin-bottom: 180%;
+   }  
+}  
+@media (max-width:380px){
+    
+    #our-client{
+        margin-top: 250%; 
+    } 
+}
+@media (max-width:360px){ 
+    .logo img{
+        width: 40%;
+    }
+ 
+    #our-client{
+        margin-top: -50%; 
+    } 
+    #carouselExampleIndicators{
+        height: 50vh;
+    }  
+}
+@media (max-width:320px){ 
+    #our-client{
+        margin-top: 250%; 
+    } 
+    #carouselExampleIndicators{
+        height: 90vh;
+    }  
+}
+
+@media (max-width:280px){
+     
+    
+}
